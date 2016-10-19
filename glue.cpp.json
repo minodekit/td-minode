@@ -1,0 +1,23 @@
+{
+  "input": {
+    "includes": [
+      "microbit-touchdevelop/GlueCore.h"
+    ],
+    "yotta_modules": [
+      {
+        "name": "minode-dal",
+        "files": [
+          "inc/core/MiNodeComponent.h",
+          "inc/core/MiNodeConn.h",
+          "source/core/MiNodeConn.cpp",
+          "inc/drivers/MiNodeSwitch.h",
+          "source/drivers/MiNodeSwitch.cpp"
+        ]
+      }
+    ],
+    "workspace": [
+      "source/minode/SwitchGlue.cpp"
+    ]
+  },
+  "output": "build/bbc-microbit-classic-gcc/source/glue.cpp"
+}
